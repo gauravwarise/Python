@@ -1,0 +1,11 @@
+import arith
+a=int(input("Enter first number:"))
+b=int(input("Enter second number:"))
+res=arith.add(a,b)
+print("sum is:", res)
+res=arith.sub(a,b)
+print("sub is:", res)
+res=arith.div(a,b)
+print("div is:", res)
+res=arith.mult(a,b)
+print("mult is:", res)

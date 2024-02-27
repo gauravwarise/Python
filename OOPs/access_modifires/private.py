@@ -21,4 +21,4 @@ class Info():
     def displayinfo(self):
         self.__display()
 obj1=Info("gaurav",101,"Thane")
-obj1.displayinfo()
+obj1.displayinfo() 

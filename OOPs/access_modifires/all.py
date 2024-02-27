@@ -29,9 +29,13 @@ class subcalc(calc):
     def accessprotected(self):
         self._displayprotected()
 
+    # def accessprivate(self):
+    #     self.__displaypri()
+
 ob1=subcalc("abc",2,"xyz")
 ob1.displaypub()
 ob1.accesspri()
 ob1.accessprotected()
+# ob1.accessprivate()
 
         
